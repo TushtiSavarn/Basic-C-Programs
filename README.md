@@ -1,168 +1,285 @@
-# 💻 Data Structures & Algorithms Using C
+# 💻 Data Structures & Algorithms in C
 
-This repository contains my implementations of core **Data Structures and Algorithms (DSA)** using the C programming language.
+A comprehensive collection of Data Structures and Algorithms (DSA) programs implemented in the C programming language.
 
-These programs were developed while learning fundamental DSA concepts and focus on strengthening logical thinking, memory management understanding, and implementation-level clarity.
-
----
-
-## 📌 About This Repository
-
-This project includes structured implementations of:
-
-- Arrays
-- Stacks
-- Queues
-- Linked Lists
-- Sorting Algorithms
-- Expression Conversions
-- Polynomial Operations
-- Priority Queues
-- String Operations
-
-The objective was to deeply understand how data structures work internally — without relying on built-in libraries.
+This repository showcases foundational DSA concepts implemented from scratch to strengthen problem-solving skills, logical thinking, memory management understanding, and low-level programming proficiency.
 
 ---
 
-## 🧠 Topics Covered
+# 🚀 About This Repository
 
-### 🔹 Arrays
-- Basic array operations
-- Array manipulation programs
+This repository contains practical implementations of:
 
-### 🔹 Stacks
-- Stack using array
-- Dynamic stack
-- Multiple stacks
-- Stack applications (Parenthesis matching, Expression evaluation)
+* Arrays
+* Stacks
+* Queues
+* Linked Lists
+* Sorting Algorithms
+* Expression Conversion & Evaluation
+* Polynomial Operations
+* String Manipulation
 
-Files:
-- `STACKUSI.C`
-- `stackdynamic.c`
-- `multistack.c`
-- `paranthesis.c`
-- `parenthesis match.c`
+The primary objective of these implementations is to deeply understand how core data structures and algorithms work internally without relying on built-in libraries.
 
 ---
 
-### 🔹 Queues
-- Linear Queue
-- Circular Queue
-- Deque (Double-ended Queue)
-- Queue using Linked List
-- Priority Queue
-
-Files:
-- `queue.c`
-- `linearqueue.c`
-- `circluarqueue.c`
-- `dq.c`
-- `inputdq.c`
-- `outputdq.c`
-- `queueusinglinkedlist.c`
-- `queuestruct.c`
-- `pri1.c`
-- `pri2.c`
-- `priority3rd.c`
-- `primaam.c`
+# 🧠 Topics Covered
 
 ---
 
-### 🔹 Linked Lists
-- Singly Linked List
-- Doubly Linked List
-- Circular Linked List
-- Doubly Circular Linked List
+## 🔹 Arrays
 
-Files:
-- `linkedlist.c`
-- `doublylinkedlist.c`
-- `circularlinkedlist.c`
-- `doublycircluarlinkedlist.c`
+Basic array operations and array manipulation programs.
+
+### Files
+
+```bash id="04a9v4"
+ARRAYSTC.C
+```
 
 ---
 
-### 🔹 Sorting Algorithms
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
+## 🔹 Stacks
 
-Files:
-- `bubble sort.c`
-- `selection sort.c`
-- `insertionsort.c`
+Implementation of stacks using arrays and dynamic memory allocation along with stack-based applications.
 
----
+### Concepts Covered
 
-### 🔹 Expression Handling
-- Infix to Prefix Conversion
-- Postfix Conversion
-- Prefix Evaluation
-- Postfix Evaluation
+* Stack using Array
+* Dynamic Stack
+* Multiple Stacks
+* Parenthesis Matching
+* Expression Evaluation
 
-Files:
-- `infixtopre.c`
-- `postfixconvert.c`
-- `postfixeval.c`
-- `prefixeval.c`
+### Files
+
+```bash id="mxh7rb"
+STACKUSI.C
+stackdynamic.c
+multistack.c
+paranthesis.c
+parenthesis match.c
+```
 
 ---
 
-### 🔹 Polynomial Operations
-- Polynomial Addition
-- Polynomial Multiplication
+## 🔹 Queues
 
-Files:
-- `polyadd.C`
-- `addpolynomial.c`
-- `multi.c`
+Implementation of various queue structures and applications.
 
----
+### Concepts Covered
 
-### 🔹 String Operations
-- String Reverse
-- String Size Calculation
+* Linear Queue
+* Circular Queue
+* Deque (Double Ended Queue)
+* Queue using Linked List
+* Priority Queue
 
-Files:
-- `stringrev.c`
-- `sizeofstring.c`
+### Files
 
----
-
-
----
-
-## 🎯 Skills Demonstrated
-
-- Low-level memory understanding
-- Pointer manipulation
-- Implementation of core data structures from scratch
-- Algorithm design & logic building
-- Debugging structured C programs
+```bash id="bljlwm"
+queue.c
+linearqueue.c
+circluarqueue.c
+dq.c
+inputdq.c
+outputdq.c
+queueusinglinkedlist.c
+queuestruct.c
+pri1.c
+pri2.c
+priority3rd.c
+primaam.c
+```
 
 ---
 
-## 🚀 Why This Repository Matters
+## 🔹 Linked Lists
 
-Understanding DSA through C builds:
+Implementation of linked list data structures using pointers.
 
-✔ Strong fundamentals for interviews  
-✔ Better grasp of memory management  
-✔ Improved problem-solving ability  
-✔ Preparation for advanced algorithms  
+### Concepts Covered
 
-This repository represents my foundational DSA learning journey and hands-on implementation practice.
+* Singly Linked List
+* Doubly Linked List
+* Circular Linked List
+* Doubly Circular Linked List
+
+### Files
+
+```bash id="mgq64u"
+linkedlist.c
+doublylinkedlist.c
+circularlinkedlist.c
+doublycircluarlinkedlist.c
+```
 
 ---
 
-## 👩‍💻 Author
+## 🔹 Sorting Algorithms
 
-**Tushti Savarn**  
-Aspiring Software Engineer | AI/ML Enthusiast | Strong DSA Foundation  
+Implementation of commonly used sorting algorithms.
 
-GitHub: https://github.com/TushtiSavarn
-Linkdeln: https://www.linkedin.com/in/tushti-savarn/ 
+### Algorithms Included
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+
+### Files
+
+```bash id="e4bw57"
+bubble sort.c
+selection sort.c
+insertionsort.c
+```
 
 ---
 
-⭐ If you're learning DSA in C, feel free to explore the implementations.
+## 🔹 Expression Handling
+
+Programs for expression conversion and evaluation using stacks.
+
+### Concepts Covered
+
+* Infix to Prefix Conversion
+* Postfix Conversion
+* Prefix Evaluation
+* Postfix Evaluation
+
+### Files
+
+```bash id="d9d5eo"
+infixtopre.c
+postfixconvert.c
+postfixeval.c
+prefixeval.c
+```
+
+---
+
+## 🔹 Polynomial Operations
+
+Programs for polynomial arithmetic operations.
+
+### Concepts Covered
+
+* Polynomial Addition
+* Polynomial Multiplication
+
+### Files
+
+```bash id="2n0x41"
+polyadd.C
+addpolynomial.c
+multi.c
+```
+
+---
+
+## 🔹 String Operations
+
+Basic string manipulation programs in C.
+
+### Files
+
+```bash id="1h3uc7"
+stringrev.c
+sizeofstring.c
+```
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology                | Purpose                          |
+| ------------------------- | -------------------------------- |
+| C Programming             | Core Language                    |
+| GCC Compiler              | Compilation                      |
+| Pointers & Dynamic Memory | Memory Management                |
+| Standard C Libraries      | Input/Output & Utility Functions |
+
+---
+
+# ⚙️ How to Run
+
+## Compile a Program
+
+```bash id="tq3sgk"
+gcc filename.c -o output
+```
+
+Example:
+
+```bash id="i6krvb"
+gcc stackdynamic.c -o stack
+```
+
+---
+
+## Run the Executable
+
+```bash id="5h6os9"
+./output
+```
+
+Example:
+
+```bash id="6rq93v"
+./stack
+```
+
+---
+
+# 🎯 Skills Demonstrated
+
+✔ Data Structure Implementation from Scratch
+✔ Pointer Manipulation
+✔ Dynamic Memory Management
+✔ Algorithm Design & Logic Building
+✔ Expression Parsing Techniques
+✔ Debugging & Structured Programming
+✔ Low-Level Problem Solving
+
+---
+
+# 📚 Learning Outcomes
+
+This repository helped strengthen understanding of:
+
+* Core DSA Fundamentals
+* Memory Management in C
+* Time & Space Complexity Basics
+* Problem Solving Techniques
+* Low-Level Programming Concepts
+
+---
+
+# 🚀 Why This Repository Matters
+
+Learning DSA through C provides strong programming fundamentals and deep implementation-level understanding.
+
+This repository represents my foundational journey into:
+
+* algorithms,
+* data structures,
+* memory handling,
+* and efficient problem solving.
+
+It serves as a strong base for advanced software engineering and AI/ML problem-solving skills.
+
+---
+
+# 👩‍💻 Author
+
+**Tushti Savarn**
+MCA Student | Aspiring Software Engineer | AI/ML Enthusiast
+
+🔗 GitHub: https://github.com/TushtiSavarn
+🔗 LinkedIn: https://www.linkedin.com/in/tushti-savarn/
+🔗 Medium: https://www.medium.com/@tushtisavarn
+---
+
+# ⭐ Support
+
+If you found this repository helpful, consider giving it a ⭐ on GitHub!
